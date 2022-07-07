@@ -1,0 +1,50 @@
+body{
+ background-color: black;
+}
+
+.titulo{
+  color:aqua;
+  text-align: center;
+}
+
+.subtitulo{
+  color:aquamarine;
+  text-align:center;
+}
+
+.disponivel{
+  color:red;
+  margin-top: 5%;
+  text-align:center;
+}
+
+.indisponivel{
+  color:deeppink;
+  margin-top: 5%;
+  text-align:center;
+}
+
+.prosseguir{
+  margin-left:46.3%;
+  padding:0.2em 0.6em;
+  color:aqua;
+  text-decoration:none;
+  border: 2px solid aqua;
+}
+
+.celo{
+  color:aqua;
+  margin-left: 43%;
+  margin-top:5%;
+}
+
+@media screen and (min-width:320px) and (max-width:700px) {
+  
+  .prosseguir{
+    margin-left:31%;
+  }
+
+  .celo{
+    margin-left:12%;
+  }
+}

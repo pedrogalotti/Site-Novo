@@ -1,0 +1,90 @@
+body{
+  margin:0;
+}
+
+.titulo{
+  text-align:center;
+  color:red;
+}
+
+.cnt{
+  margin-top:5%;
+}
+
+.contatos{
+    border:2px solid black;
+
+    max-width:230px;
+    margin-top:1%;
+}
+
+.rs{
+  margin-left: 45.5%;
+  margin-top: -21%;
+}
+
+.redes{
+  margin-left:43%;
+  margin-top: 1.2%;
+
+  border:2px solid black;
+  max-width:200px;
+}
+
+.yt1{
+  padding: 0.2em 0.6em;
+  color:aqua;
+  background-color:black;
+  text-decoration:none;
+  border:2px solid rgb(159, 5, 231);
+}
+
+.dls{
+  margin-left:80%;
+  margin-top:-20%;
+}
+
+.downloads{
+  margin-left:76%;
+  border: 2px solid black;
+
+  height:210px;
+  width:210px;
+}
+
+.celo{
+  margin-top:14%;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+
+  .contatos{
+    margin-left:0;
+    margin-top:10%;
+  }
+
+  .redes{
+    margin-left:0;
+    margin-top:-5%;
+  }
+
+  .downloads{
+    margin-left:0;
+    margin-top:-5%;
+  }
+
+  .rs{
+    margin-left:0;
+    margin-top: 20%;
+  }
+
+  .dls{
+    margin-left:0;
+    margin-top:20%;
+  }
+
+  .celo{
+    color:aqua;
+    background-color: black;
+  }
+}

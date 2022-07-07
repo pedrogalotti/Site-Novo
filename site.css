@@ -1,0 +1,170 @@
+body{
+  background-color: rgb(253, 251, 251);
+}
+
+.titulo{
+ text-align:center;
+ color:darkred;
+
+ margin-top:-1%;
+ height:40px;
+ max-width:1300px;
+}
+
+.projetos{
+  margin-top:5%;
+  border: 2px solid black;
+  max-width:330px;
+}
+.tituloP{
+  color:rgb(17, 10, 16);
+}
+
+
+.cal{
+  padding:0.2em 0.6em;
+  color: aqua;
+  background-color: rgb(7, 7, 7);
+  text-decoration:none;
+  border:2px solid rgb(159, 5, 231);
+}
+
+.calen{
+  padding:0.2em 0.6em;
+  color: rgb(7, 7, 7);
+  background-color: rgb(255, 251, 251);
+  text-decoration: none;
+  border:2px solid rgb(159, 5, 231);
+}
+
+.pesquisa{
+  padding:0.2em 0.6em;
+  color: aqua;
+  background-color: black;
+  text-decoration:none;
+  border:2px solid rgb(159, 5, 231);
+}
+
+.e-mail{
+  padding:0.2em 0.6em;
+  color: aqua;
+  background-color: black;
+  text-decoration:none;
+  border:2px solid rgb(159, 5, 231);
+}
+
+.linguagens{
+  border:2px solid black;
+  width:300px;
+}
+
+.Caixa{
+  padding:0.2em 0.6em;
+  color:aqua;
+  background-color:black;
+  text-decoration:none;
+  border:2px solid rgb(159, 5, 231);
+}
+
+.cntt{
+  margin-top:-51.3%;
+  margin-left:75%;
+  
+  color:rgb(34, 0, 255);
+  height:160px;
+  border:2px solid black;
+}
+
+.p{
+  color:rgb(65, 14, 169)
+}
+
+.saiba-mais{
+  padding:0.4em 2.5em;
+  color:aqua;
+  background-color:rgb(7, 7, 7);
+  text-decoration:none;
+  border:2px solid rgb(159, 5, 231);
+
+  margin-left:32%;
+}
+
+.pessoal{
+  margin-left:75%;
+  color:red;
+  border:2px solid black;
+
+  height:200px;
+}
+
+.github{
+  margin-left:-5%;
+  margin-top:-5%;
+}
+
+.githubP{
+  margin-top:-10%;
+  margin-left:20%;
+}
+
+.yt{
+  margin-left:20%;
+  margin-top:-10%;
+}
+
+.gy{
+  padding:0.2em 0.6em;
+  color:aqua;
+  background-color:black;
+  text-decoration:none;
+  border:2px solid rgb(159, 5, 231);
+}
+
+.fts{
+  display:inline-flex;
+  margin-top: 22%;
+}
+
+@media screen and (min-width:320px) and (max-width:700px){
+
+  .projetos{
+    margin-top:15%;
+  }
+
+  .linguagens{
+    width:285px;
+  }
+
+  .cntt{
+    margin-left:0%;
+    margin-top:20%;
+    height:180px
+  }
+
+  .pessoal{
+    margin-top:20%;
+    margin-left:0%;
+  }
+
+  .fts{
+    display:contents;
+    margin-left: -10%;
+  }
+
+  .colorida{
+    margin-top:15%;
+    width:287px;
+  }
+
+  .js{
+    width:287px;
+  }
+
+  .php1{
+    width:287px;
+  }
+
+  .lua{
+    width:287px;
+  }
+}

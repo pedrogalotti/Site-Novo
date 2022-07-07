@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./index.css" media="screen">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+<body>
+  <div>
+     <h1 class="titulo">Pedro Dev</h1>
+     <p class="subtitulo"><strong>Site Oficial</strong></p>
+  </div>
+
+  <form>
+    <fieldset class="grupo">
+       <div class="campo">
+        <label for="name"><strong>Nome</strong></label>
+        <input type="text" name="nome" placeholder="Insira seu Nome" required/><br></br>
+       </div>
+
+       <div class="campo">
+        <label for="sobrenome"><strong>Sobrenome<strong></label>
+          <input type="text" name="sobrenome" placeholder="Insira seu Sobrenome" required/>
+       </div>
+    </fieldset><br>
+
+    <div class="lugar">
+     <label><strong>Onde você conheceu Pedro Dev?</strong></label><br>
+
+     <label><input type="radio" name="siteweb" value="YouTube">YouTube</label><br>
+     <label><input type="radio" name="siteweb" value="Instagram">Instagram</label><br>
+     <label><input type="radio" name="siteweb" value="Discord">Discord</input></label><br>
+
+    </div><br>
+
+    <div class="Selecionar">
+      <label for="tempo"><strong>A quanto tempo você me segue?</strong></label><br>
+      Selecione: <select id="tempo">
+       <option>3</option>
+       <option>2</option>
+       <option>1</option>
+       <option>esse ano</option>
+      </select>
+    </div><br>
+ </form>
+
+ <div class="final"><strong>Clique abaixo para finalizar.</strong></div><br><br>
+
+ <a class="button" href="./avisos.html">FINALIZAR</a>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  background-color: black;
+  justify-content: center;
+}
+
+.titulo{
+  font-family: sans-serif;
+  color:rgb(253, 251, 252);
+  margin-top:0.5%;
+  text-align:center;
+}
+
+.subtitulo{
+  font-family: sans-serif;
+  color: red;
+  margin-top:-1%;
+  text-align:center;
+}
+
+fieldset{
+ margin-left:42.5%;
+ border:0;
+ max-width:180px;
+ color:rgb(75, 241, 9);
+}
+
+.lugar{
+  margin-left:42.2%;
+  color:red;
+}
+
+.Selecionar{
+  margin-left:42.2%;
+  color:greenyellow;
+}
+
+.final{
+  margin-left:43%;
+  color:rgb(211, 5, 234);
+}
+
+.button{
+  color:aqua;
+  margin-left:46.5%;
+  padding:0.2em 0.6em;
+  text-decoration: none;
+  border: 2px solid;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+
+  fieldset{
+    margin-left: 21%;  
+  }
+
+  .lugar{
+    margin-left:24.2%;
+  }
+
+  .Selecionar{
+    margin-left:24.2%;
+  }
+
+  .final{
+    margin-left:24.2%;
+  }
+
+  .button{
+    margin-left:33%;
+  }
+}
