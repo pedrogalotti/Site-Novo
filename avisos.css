@@ -1,4 +1,4 @@
-body{
+/* body{
  background-color: black;
 }
 
@@ -48,3 +48,15 @@ body{
     margin-left:12%;
   }
 }
+
+@media screen and (min-width:1920px){
+
+  .prosseguir{
+    margin-left:46.9%;  
+  }
+
+  .celo{
+    margin-left:45%;
+  }
+
+} */
